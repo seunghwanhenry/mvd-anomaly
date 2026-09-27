@@ -1,0 +1,12 @@
+torch>=2.4
+numpy
+pandas
+scikit-learn
+scipy
+tqdm
+matplotlib
+hydra-core
+omegaconf
+easydict
+tensorboard
+more_itertools
