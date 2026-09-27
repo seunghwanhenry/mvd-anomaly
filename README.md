@@ -5,7 +5,7 @@ Code, configurations, and per-entity results for the manuscript submitted to *Kn
 ## What is here
 - `notebooks/mvd_experiments.ipynb` — MVD and its ablation variants (offline training, label-free calibration, gated online adaptation); campaigns for SMD (28 machines), MSL (27 entities), SWaT, cross-machine shift, and sensitivity.
 - `notebooks/baselines_official.ipynb`, `notebooks/baselines_parallel.ipynb`, `scripts/baseline_worker.py` — adapters that run the official implementations of LSTM-AD, OmniAnomaly, USAD, TranAD, MTAD-GAT, THOC and M2N2 under the same protocol and export point-wise scores.
-- `results/` — per-entity, seed-averaged metrics and full tables used in the paper; raw per-run JSON in the release asset.
+- `results/` — per-entity, seed-averaged metrics and full tables used in the paper; raw per-run JSON available from the author on request.
 - `figures/` — all figures.
 
 ## Protocol (identical for every method)
